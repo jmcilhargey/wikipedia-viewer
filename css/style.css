@@ -1,0 +1,73 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  color: #404040;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main {
+  padding: 10px;
+}
+
+input {
+  width: 85px;
+  padding: 20px;
+  font-size: 28px;
+  border: 2px solid #404040;
+  border-radius: 55px;
+  background: #f2f2f2 url("https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/search-icon.png") no-repeat 25px center;
+  background-size: 35px;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: transparent;
+}
+
+input:focus {
+  outline: none;
+  width: 50%;
+  background-color: #fff;
+  border-color: #36b;
+  padding-left: 70px;
+  color: #404040;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  cursor: auto;
+}
+
+.card {
+  margin: 25px auto;
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #36b;
+  border-radius: 60px;
+  transition: all 0.25s;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+}
+
+.card:hover {
+  background: #f2f2f2;
+}
+
+.card a {
+  text-decoration: none;
+  color: #404040;
+}
+
+.footer {
+  background: #f2f2f2;
+  border-top: 2px solid #404040;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-top: 20px;
+}
